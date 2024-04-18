@@ -9,11 +9,11 @@
 size_t binary_tree_depth(const binary_tree_t *tree)
 
 {
-	if (tree == NULL)
-		return (0);
-
 	size_t left_depth;
 	size_t right_depth;
+
+	if (tree == NULL)
+		return (0);
 
 	else
 	{
